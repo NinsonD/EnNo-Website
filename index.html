@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eNno</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- ///////////////////////bootstarp//////////////// -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- /////////////font-awesome///////////////////////// -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- /////////////////////owl//////////////////////// -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- ////////////////////Nav////////////////////// -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container">
+        <a class="navbar-brand fs-1 fw-bold text-secondary" href="#">eNno</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn btn-success rounded-pill px-4" type="submit">
+              Get Started
+            </button>
+          </form>
+        </div>
+      </div>
+          
+    </nav>
+    <!-- Hero-Section -->
+    <div class="container my-5">
+      <div class="row">
+        <div
+          class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
+        >
+          <h2 class="fs-1 fw-bolder" style="color: #5f687b">
+            Elegant and creative <br />
+            solutions
+          </h2>
+          <p>
+            We are team of talented designers making websites with Bootstrap
+          </p>
+          <div class="d-flex align-items-center">
+            <button type="button" class="btn-get-started rounded-pill me-3">
+              Get Started
+            </button>
+            <i class="bi bi-play-circle text-success fs-2 me-1"></i>
+            <span>Watch Video</span>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img
+            src="img/img/hero-img.png"
+            class="img-fluid animated bounce"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Featured Services Section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mt-3">
+          <div class="service-item p-3">
+            <div class="icon text-center">
+              <i class="bi bi-activity icon text-success fs-1"></i>
+            </div>
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+          <div class="service-item p-3">
+            <div class="icon text-center">
+              <i class="bi bi-bounding-box-circles icon text-success fs-1"></i>
+            </div>
+            <h4>Sed ut perspici</h4>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 mt-3">
+          <div class="service-item p-3">
+            <div class="icon text-center">
+              <i class="bi bi-calendar4-week icon text-success fs-1"></i>
+            </div>
+            <h4>Magni Dolores</h4>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////////About///////////////////////////// -->
+    <div class="container">
+      <div class="service d-flex flex-column align-items-center my-5">
+        <span class="about">About </span>
+        <span class="about-us"> About Us</span>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="img/img/about.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-6">
+          <h2>
+            Voluptatem dignissimos provident quasi corporis voluptates sit
+            assumenda.
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <p>
+            <i class="fa-regular fa-circle-check" style="color: #63e6be"></i>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            <i class="fa-regular fa-circle-check" style="color: #63e6be"></i>
+            Duis aute irure dolor in reprehenderit in voluptate velit
+          </p>
+          <p>
+            <i class="fa-regular fa-circle-check" style="color: #63e6be"></i>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate trideta storacalaperda
+            mastiro dolore eu fugiat nulla pariatur.
+          </p>
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident
+          </p>
+        </div>
+      </div>
+      <div class="row my-5 text-center">
+        <div class="col-lg-3 col-md-6">
+          <h2 class="fs-1 text-success fw-bold">232</h2>
+          <p>clients</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h2 class="fs-1 text-success fw-bold">521</h2>
+          <p>Projects</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h2 class="fs-1 text-success fw-bold">1453</h2>
+          <p>Hours Of Support</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h2 class="fs-1 text-success fw-bold">32</h2>
+          <p>workers</p>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////Services////////////////// -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="service d-flex flex-column align-items-center my-5">
+          <span class="about">Services </span>
+          <span class="about-us">Services</span>
+          <p>
+            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+            consectetur velit
+          </p>
+        </div>
+        <div class="row d-flex justify-content-center gap-5">
+          <div class="col-lg-3 bg-secondary-subtle text-center">
+            <div class="icon">
+              <i class="bi bi-activity icon text-success fs-1"></i>
+            </div>
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi
+            </p>
+          </div>
+          <div class="col-lg-3 bg-secondary-subtle text-center">
+            <div class="icon">
+              <i class="bi bi-activity icon text-success fs-1"></i>
+            </div>
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi
+            </p>
+          </div>
+          <div class="col-lg-3 bg-secondary-subtle text-center">
+            <div class="icon">
+              <i class="bi bi-activity icon text-success fs-1"></i>
+            </div>
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi
+            </p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center gap-5 my-5">
+          <div class="col-lg-3 bg-secondary-subtle text-center">
+            <div class="icon">
+              <i class="bi bi-activity icon text-success fs-1"></i>
+            </div>
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi
+            </p>
+          </div>
+          <div class="col-lg-3 bg-secondary-subtle text-center">
+            <div class="icon">
+              <i class="bi bi-activity icon text-success fs-1"></i>
+            </div>
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi
+            </p>
+          </div>
+          <div class="col-lg-3 bg-secondary-subtle text-center">
+            <div class="icon">
+              <i class="bi bi-activity icon text-success fs-1"></i>
+            </div>
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ////////////////////Portfolio/////////////// -->
+    <div class="container">
+      <div class="service d-flex flex-column align-items-center my-5">
+        <span class="about">Portfolio</span>
+        <span class="about-us">Portfolio</span>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active text-black" aria-current="page" href="#"
+            >All</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#">App</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#">Branding</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="#">Books</a>
+        </li>
+      </ul>
+      <div class="row d-flex justify-content-center mt-4">
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img src="img/img/portfolio/app-1.jpg" class="img-fluid" alt="" />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img src="img/img/portfolio/app-2.jpg" class="img-fluid" alt="" />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img src="img/img/portfolio/app-3.jpg" class="img-fluid" alt="" />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img src="img/img/portfolio/books-1.jpg" class="img-fluid" alt="" />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img src="img/img/portfolio/books-2.jpg" class="img-fluid" alt="" />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img src="img/img/portfolio/books-3.jpg" class="img-fluid" alt="" />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img
+              src="img/img/portfolio/branding-1.jpg"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img
+              src="img/img/portfolio/branding-2.jpg"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img
+              src="img/img/portfolio/branding-3.jpg"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img
+              src="img/img/portfolio/product-1.jpg"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img
+              src="img/img/portfolio/product-2.jpg"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 p-3">
+          <div class="p-card">
+            <img
+              src="img/img/portfolio/product-3.jpg"
+              class="img-fluid"
+              alt=""
+            />
+            <div class="d-card mx-4">
+              <h5>App 1</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                odio aliquid, hic labore qui
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////Testimonials////////////// -->
+    <div class="container">
+      <div class="service d-flex flex-column align-items-center my-5">
+        <span class="about">Testimonials</span>
+        <span class="about-us">Testimonials</span>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <p>
+            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+            export minim fugiat dolor enim duis veniam ipsum anim magna sunt
+            elit fore quem dolore labore illum veniam.
+          </p>
+          <img
+            src="img/img/testimonials/testimonials-1.jpg"
+            class="img-fluid rounded-circle w-25"
+            alt=""
+          />
+          <h5>Matt Brandon</h5>
+          <span>freelancer</span>
+        </div>
+        <div class="item">
+          <p>
+            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+            export minim fugiat dolor enim duis veniam ipsum anim magna sunt
+            elit fore quem dolore labore illum veniam.
+          </p>
+          <img
+            src="img/img/testimonials/testimonials-2.jpg"
+            class="img-fluid rounded-circle w-25"
+            alt=""
+          />
+          <h5>Matt Brandon</h5>
+          <span>freelancer</span>
+        </div>
+        <div class="item">
+          <p>
+            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+            export minim fugiat dolor enim duis veniam ipsum anim magna sunt
+            elit fore quem dolore labore illum veniam.
+          </p>
+          <img
+            src="img/img/testimonials/testimonials-3.jpg"
+            class="img-fluid rounded-circle w-25"
+            alt=""
+          />
+          <h5>Matt Brandon</h5>
+          <span>freelancer</span>
+        </div>
+        <div class="item">
+          <p>
+            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+            export minim fugiat dolor enim duis veniam ipsum anim magna sunt
+            elit fore quem dolore labore illum veniam.
+          </p>
+          <img
+            src="img/img/testimonials/testimonials-4.jpg"
+            class="img-fluid rounded-circle w-25"
+            alt=""
+          />
+          <h5>Matt Brandon</h5>
+          <span>freelancer</span>
+        </div>
+        <div class="item">
+          <p>
+            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos
+            export minim fugiat dolor enim duis veniam ipsum anim magna sunt
+            elit fore quem dolore labore illum veniam.
+          </p>
+          <img
+            src="img/img/testimonials/testimonials-5.jpg"
+            class="img-fluid rounded-circle w-25"
+            alt=""
+          />
+          <h5>Matt Brandon</h5>
+          <span>freelancer</span>
+        </div>
+      </div>
+    </div>
+    <!-- /////////////////////CAll-to-Action/////// -->
+    <div class="container-fluid call">
+      <div class="container text-center p-5">
+        <h4 class="text-light">Call To Action</h4>
+        <p class="text-light">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </p>
+        <button
+          class="btn cta-btn btn-transparent btn-outline-light p-2 mt-3 rounded-pill"
+        >
+          Call to Action
+        </button>
+      </div>
+    </div>
+    <!-- ////////////////////////Team/////////////////// -->
+    <div class="container">
+      <div class="service d-flex flex-column align-items-center my-5">
+        <span class="about">Team</span>
+        <span class="about-us">Team</span>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+      <div class="row d-flex justify-content-center gap-3">
+        <div class="col-lg-3">
+          <div class="ansil">
+            <img src="img/img/team/team-1.jpg" class="img-fluid" alt="" />
+            <div class="ninsi">
+              <h3 class="text-secondary">Walter White</h3>
+              <div class="line"></div>
+              <p class="text-secondary">Cheif Executive Officer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="ansil">
+            <img src="img/img/team/team-2.jpg" class="img-fluid" alt="" />
+            <div class="ninsi">
+              <h3 class="text-secondary">Sarah Jhonson</h3>
+              <div class="line"></div>
+              <p class="text-secondary">Product Manager</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="ansil">
+            <img src="img/img/team/team-3.jpg" class="img-fluid" alt="" />
+            <div class="ninsi">
+              <h3 class="text-secondary">William Anderson</h3>
+              <div class="line"></div>
+              <p class="text-secondary">CTO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ////////////////////Contact//////////////// -->
+    <div class="container mt-5 p-5">
+      <div class="service d-flex flex-column align-items-center my-5">
+        <span class="about">Contact</span>
+        <span class="about-us">Contact</span>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row gap-5">
+        <div class="col-lg-5 dobi">
+          <div class="d-flex gap-4 my-2">
+            <i class="fa-solid fa-location-dot fs-4" style="color: #63e6be"></i>
+            <div>
+              <h3>Address</h3>
+              <span>A108 Adam Street, New York, NY 535022</span>
+            </div>
+          </div>
+          <div class="d-flex gap-4 my-2">
+            <i class="fa-solid fa-phone fs-4" style="color: #63e6be"></i>
+            <div>
+              <h3>Call</h3>
+              <span>+1 5589 55488 55</span>
+            </div>
+          </div>
+          <div class="d-flex gap-4 my-2">
+            <i
+              class="fa-regular fa-envelope me-3 fs-4 mt-2"
+              style="color: #63e6be"
+            ></i>
+            <div>
+              <h3>Email Us</h3>
+              <span>info@example.com</span>
+            </div>
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.4197484405927!2d76.95048477477106!3d8.458497797658742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bb3cf1a21985%3A0x77d1c69ffa7fbf42!2sNational%20College!5e0!3m2!1sen!2sin!4v1723028404619!5m2!1sen!2sin"
+              width="100%"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6 p-4 dobi">
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <label for="name-field" class="pb-2">Your Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name-field"
+                class="form-control"
+                required=""
+              />
+            </div>
+
+            <div class="col-md-6">
+              <label for="email-field" class="pb-2">Your Email</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email-field"
+                required=""
+              />
+            </div>
+
+            <div class="col-md-12">
+              <label for="subject-field" class="pb-2">Subject</label>
+              <input
+                type="text"
+                class="form-control"
+                name="subject"
+                id="subject-field"
+                required=""
+              />
+            </div>
+
+            <div class="col-md-12">
+              <label for="message-field" class="pb-2">Message</label>
+              <textarea
+                class="form-control"
+                name="message"
+                rows="10"
+                id="message-field"
+                required=""
+              ></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <button class="btn btn-success rounded-pill">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //////////////////news/////////////////// -->
+    <footer id="footer" class="footer">
+      <div class="footer-newsletter">
+        <div class="container">
+          <div class="row justify-content-center text-center my-5">
+            <div class="col-lg-6">
+              <h4>Join Our Newsletter</h4>
+              <p>
+                Subscribe to our newsletter and receive the latest news about
+                our products and services!
+              </p>
+              <form
+                action="forms/newsletter.php"
+                method="post"
+                class="php-email-form"
+              >
+                <div class="newsletter-form">
+                  <input type="email" name="email" /><input
+                    type="submit"
+                    class="btn btn-success rounded-pill ms-3"
+                    value="Subscribe"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <div class="d-flex align-items-center">
+              <span class="sitename text-secondary fs-3 text-decoration-none"
+                >eNno</span
+              >
+            </div>
+
+            <div class="footer-contact pt-3">
+              <p>A108 Adam Street</p>
+              <p>New York, NY 535022</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              </p>
+              <p><strong>Email:</strong> <span>info@example.com</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> Home</li>
+              <li><i class="bi bi-chevron-right"></i> About us</li>
+              <li><i class="bi bi-chevron-right"></i> Services</li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                Terms of service
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> Web Design</li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                Web Development
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                Product Management
+              </li>
+              <li><i class="bi bi-chevron-right"></i> Marketing</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <h4>Follow Us</h4>
+            <p>
+              Cras fermentum odio eu feugiat lide par naso tierra videa magna
+              derita valies
+            </p>
+            <div class="social-links d-flex gap-4">
+              <i class="bi bi-twitter-x"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-linkedin"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+          <p>
+            © <span>Copyright</span> <strong class="px-1 sitename">eNno</strong>
+            <span>All Rights Reserved</span>
+          </p>
+          <div class="credits d-flex justify-content-center">
+            Designed by
+            <div class="text-success">BootstrapMade</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ////////////////Links//////////////////////// -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots: true,
+        dotsEach: 1,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

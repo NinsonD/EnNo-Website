@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-green {
+  background-color: #10bc69;
+}
+.text-green {
+  color: #10bc69;
+}
+.text-hover-green:hover {
+  color: #10bc69;
+}
+.btn-get-started {
+  background-color: #10bc69;
+  border: 1px solid #11bd6a;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  color: white;
+  border-radius: 0;
+  width: fit-content;
+}
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.service-item {
+  background-color: #5f687b1b;
+  padding: 50px 30px;
+  transition: all ease-in-out 0.4s;
+  height: 200px;
+}
+.about-us {
+  font-size: 50px;
+  position: absolute;
+  z-index: -1;
+  font-weight: bold;
+  top: -40px;
+  color: rgb(128, 128, 128, 0.264);
+}
+.about {
+  font-size: 30px;
+  font-weight: bold;
+}
+.service {
+  position: relative;
+}
+.p-card {
+  position: relative;
+}
+.d-card {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.605);
+  bottom: 10px;
+  width: 85%;
+  display: none;
+}
+.p-card img:hover + .d-card {
+  display: block;
+}
+.call {
+  background-color: #10bc69;
+}
+.cta-btn {
+  width: 190px;
+  border-width: 3px;
+}
+.line {
+  background-color: rgb(195, 195, 195);
+  height: 1px;
+  width: 50%;
+}
+.ansil {
+  position: relative;
+}
+.ninsi {
+  position: absolute;
+  bottom: -50px;
+  left: 30px;
+  background-color: white;
+  width: 250px;
+}
+.dobi {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+  background-color: var(--surface-color);
+}
